@@ -1,0 +1,20 @@
+/*
+Theme Name:     Wildcats
+Description:    WordPress theme for Wildcats scooter gang Dueville
+Author:         Mattia Migliorini (deshack)
+Author URI:     http://easywebcom.altervista.org
+Template:       twentyeleven
+Version:        0.1.0
+*/
+
+#access{
+	float:none;
+	text-align:center;
+	line-height:0;
+}
+#access ul{
+	display:inline-block;
+}
+#branding .only-search + #access div{
+	margin:0;
+}
