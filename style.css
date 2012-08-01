@@ -31,13 +31,18 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 }
 #title-group{
 	float:left;
+	padding-left:3%;
 }
 #site-title{
 	margin-right:0;
 }
+#site-title a{
+	font-size:40px;
+}
 #site-description{
 	color: #d00;
 	margin: 0 0 3.65625em 0;
+	font-size:20px;
 }
 
 
