@@ -5,8 +5,12 @@ Author:         Mattia Migliorini (deshack)
 Author URI:     http://easywebcom.altervista.org
 Template:       twentyeleven
 Version:        0.1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
+/* =Menu
+-------------------------------------------------------------- */
 #access{
 	float:none;
 	text-align:center;
@@ -15,6 +19,7 @@ Version:        0.1.0
 #access ul{
 	display:inline-block;
 }
+/* Search Form */
 #branding .only-search + #access div{
 	margin:0;
 }
