@@ -21,18 +21,25 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 /* =Header
 ----------------------------------------------- */
-#branding {
+#branding{
 	border-top:none;
 }
-#site-title {
-	float:left;
-	margin-right:0;
-}
-#branding img {
+#branding img{
 	height:auto;
 	max-width:300px;
 	float:left;
 }
+#title-group{
+	float:left;
+}
+#site-title{
+	margin-right:0;
+}
+#site-description{
+	color: #d00;
+	margin: 0 0 3.65625em 0;
+}
+
 
 /* =Menu
 -------------------------------------------------------------- */
@@ -45,6 +52,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	display:inline-block;
 }
 /* Search Form */
+#branding #searchform {
+	top:110px;
+}
 #branding .only-search + #access div{
 	margin:0;
 }
