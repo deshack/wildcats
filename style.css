@@ -22,6 +22,19 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	background:#000;
 }
 
+/* =Global
+----------------------------------------------- */
+/* Forms */
+#searchform input[type=text],
+#searchform input[type=password],
+#searchform textarea {
+	border: 1px solid #ab0000;
+}
+#searchform input[type=text]:focus,
+#searchform textarea:focus {
+	border:1px solid #ddd;
+}
+
 /* =Header
 ----------------------------------------------- */
 #branding{
