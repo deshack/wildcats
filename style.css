@@ -68,9 +68,23 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	float:none;
 	text-align:center;
 	line-height:0;
+	background: #700000; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#a00, #700000);
+	background: -o-linear-gradient(#a00, #700000);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a00), to(#700000)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#a00, #700000);
 }
 #access ul{
 	display:inline-block;
+}
+#access li:hover > a,
+#access a:focus {
+	background: #a00; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#700000, #a00);
+	background: -o-linear-gradient(#700000, #a00);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#700000), to(#a00)); /* Older webkit syntax */
+	background: -webkit-linear-gradient(#700000, #a00);
+	color: #eee;
 }
 /* Search Form */
 #branding #searchform {
