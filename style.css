@@ -179,7 +179,6 @@ a:hover{
 	background:#000;
 	border:2px solid #a00;
 	border-radius:8px;
-	padding:0 auto;
 }
 .widget-title {
 	background:#a00;
@@ -195,4 +194,7 @@ a:hover{
 .widget a:focus,
 .widget a:active {
 	text-decoration:none;
+}
+.widget iframe{
+	margin:15px 15px 0 15px;
 }
