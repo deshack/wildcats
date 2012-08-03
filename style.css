@@ -159,6 +159,18 @@ a:hover{
 .entry-header .comments-link a {
 	background: #ccc url(images/comment-bubble-dark.png) no-repeat;
 	color: #d00;
+	transition:background 0.3s;
+	-moz-transition:background 0.3s;
+	-webkit-transition:background 0.3s;
+	-o-transition:background 0.3s;
+	-ms-transition:background 0.3s;
+}
+.entry-header .comments-link a:hover,
+.entry-header .comments-link a:focus,
+.entry-header .comments-link a:active {
+	background-color: #1982d1;
+	color: #fff;
+	color: rgba(255,255,255,0.8);
 }
 
 /* =Widgets
@@ -167,9 +179,20 @@ a:hover{
 	background:#000;
 	border:2px solid #a00;
 	border-radius:8px;
+	padding:0 auto;
 }
 .widget-title {
 	background:#a00;
 	color: #ccc;
 	font-size: 15px;
+}
+.widget ul{
+	margin:10px 25px;
+	list-style:circle;
+}
+.widget
+.widget a:hover,
+.widget a:focus,
+.widget a:active {
+	text-decoration:none;
 }
