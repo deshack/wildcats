@@ -21,6 +21,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	padding:3.6% 0;
 	background:#000;
 }
+#secondary {
+	margin-right:1%;
+	width: 24.4%;
+}
+#secondary .widget-title{
+	padding-left:10px;
+	border-radius:5px 5px 0 0;
+}
 
 /* =Global
 ----------------------------------------------- */
@@ -151,4 +159,17 @@ a:hover{
 .entry-header .comments-link a {
 	background: #ccc url(images/comment-bubble-dark.png) no-repeat;
 	color: #d00;
+}
+
+/* =Widgets
+----------------------------------------------- */
+.widget {
+	background:#000;
+	border:2px solid #a00;
+	border-radius:8px;
+}
+.widget-title {
+	background:#a00;
+	color: #ccc;
+	font-size: 15px;
 }
