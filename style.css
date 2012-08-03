@@ -14,7 +14,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /* =Structure
 ----------------------------------------------- */
 #page{
-	margin:1em auto;
+	margin:0 auto;
 }
 #branding hgroup {
 	margin:0;
@@ -24,6 +24,15 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 /* =Global
 ----------------------------------------------- */
+body, input, textarea{
+	color: #ccc;
+	font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 1.625;
+}
+#page{
+	background:#333;
+}
 /* Forms */
 #searchform input[type=text],
 #searchform input[type=password],
@@ -92,4 +101,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 }
 #branding .only-search + #access div{
 	margin:0;
+}
+
+/* =Content
+----------------------------------------------- */
+.entry-title,
+.entry-title a {
+	color: #d00;
 }
