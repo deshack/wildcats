@@ -198,3 +198,18 @@ a:hover{
 .widget iframe{
 	margin:15px 15px 0 15px;
 }
+
+/* =Footer
+----------------------------------------------- */
+/* Site Generator Line */
+#site-generator {
+	background: #000;
+	border-top:none;
+	color: #ccc;
+}
+#site-generator a{
+	color:#d00;
+}
+#site-generator a:hover{
+	color:#ccc!important;
+}
