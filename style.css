@@ -109,3 +109,8 @@ body, input, textarea{
 .entry-title a {
 	color: #d00;
 }
+/* Comments link */
+.entry-header .comments-link a {
+	background: #ccc url(images/comment-bubble-dark.png) no-repeat;
+	color: #d00;
+}
