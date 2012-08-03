@@ -86,12 +86,25 @@ body, input, textarea{
 #access ul{
 	display:inline-block;
 }
+#access li > a,
+#access a{
+	background: #700000; /* Show a solid color for older browsers */
+	background: -moz-linear-gradient(#a00, #700000);
+	background: -o-linear-gradient(#a00, #700000);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a00), to(#700000)); /* older webkit syntax */
+	background: -webkit-linear-gradient(#a00, #700000);
+	transition:background 0.5s linear;
+	-moz-transition:background 0.5s linear;
+	-webkit-transition:background 0.5s linear;
+	-o-transition:background 0.5s linear;
+	-ms-transition:background 0.5s linear;
+}
 #access li:hover > a,
 #access a:focus {
 	background: #a00; /* Show a solid color for older browsers */
 	background: -moz-linear-gradient(#700000, #a00);
 	background: -o-linear-gradient(#700000, #a00);
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#700000), to(#a00)); /* Older webkit syntax */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#700000), to(#a00)); /* older webkit syntax */
 	background: -webkit-linear-gradient(#700000, #a00);
 	color: #eee;
 }
