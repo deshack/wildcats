@@ -23,7 +23,7 @@
 			?>
 
 			<div id="site-generator">
-				<?php printf('Powered by <a href="http://wordpress.org">Wordpress</a> | Design by <a href="mailto:mattia.mglrn@gmail.com" title="Scrivi a Mattia Migliorini">Mattia Migliorini</a>'); ?>
+				<?php printf('Powered by <a href="http://wordpress.org">Wordpress</a> | Design by <a href="mailto:designer@wildcats-sg.it" title="Scrivi a Mattia Migliorini">Mattia Migliorini</a>'); ?>
 			</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
