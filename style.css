@@ -29,6 +29,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	padding-left:10px;
 	border-radius:5px 5px 0 0;
 }
+/* Singular */
+.singular #content,
+.left-sidebar.singular #content {
+	margin: 0 34% 0 3.6%;
+	width: 59.4%;
+}
 
 /* =Global
 ----------------------------------------------- */
@@ -184,6 +190,11 @@ a:hover{
 	background-color: #1982d1;
 	color: #fff;
 	color: rgba(255,255,255,0.8);
+}
+/* Singular content styles for Posts and Pages */
+.singular .entry-title {
+	font-size:26px;
+	line-height: 1.5em;
 }
 
 /* =Widgets
