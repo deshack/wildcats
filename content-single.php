@@ -19,9 +19,9 @@
 				/* translators: used between list items, there is a space after the comma */
 				$categories_list = get_the_category_list( __( ', ', 'twentyeleven' ) );
 				if ( '' != $categories_list ) {
-					$utility_text = __( ' da <a href="%4$s">%3$s</a> in %1$s.', 'twentyeleven' );
+					$utility_text = __( ' da <a href="%4$s">%3$s</a> in %1$s', 'twentyeleven' );
 				} else {
-					$utility_text = __( ' da <a href="%4$s">%3$s</a>.', 'twentyeleven' );
+					$utility_text = __( ' da <a href="%4$s">%3$s</a>', 'twentyeleven' );
 				}
 
 				printf(
