@@ -15,6 +15,23 @@
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php twentyeleven_posted_on(); ?>
+			<?php
+				/* translators: used between list items, there is a space after the comma */
+				$categories_list = get_the_category_list( __( ', ', 'twentyeleven' ) );
+				if ( '' != $categories_list ) {
+					$utility_text = __( ' da <a href="%4$s">%3$s</a> in %1$s.', 'twentyeleven' );
+				} else {
+					$utility_text = __( ' da <a href="%4$s">%3$s</a>.', 'twentyeleven' );
+				}
+
+				printf(
+					$utility_text,
+					$categories_list,
+					the_title_attribute( 'echo=0' ),
+					get_the_author(),
+					esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) )
+				);
+			?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
