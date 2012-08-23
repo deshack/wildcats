@@ -35,7 +35,7 @@
 			<?php
 				$tag_list = get_the_tag_list( '', __( ' - ', 'twentyeleven' ) );
 				if ( '' != $tag_list ) {
-					printf(__( '<br />'.'Etichette: $tag_list.' ) );
+					printf(__( '<br />'.'Etichette: '.$tag_list.'.' ) );
 				}
 			?>
 		</div><!-- .entry-meta -->
@@ -47,13 +47,7 @@
 		<?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'twentyeleven' ) . '</span>', 'after' => '</div>' ) ); ?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-meta">
-		<?php
-			$permalink = esc_url( get_permalink() );
-			$title = the_title_attribute( 'echo=0' );
-			printf('Aggiungi il <a href="$permalink" title="Permalink to $title" rel="bookmark">permalink</a> ai segnalibri.');
-		?>
-		
+	<footer class="entry-meta">		
 		<?php if ( get_the_author_meta( 'description' ) && ( ! function_exists( 'is_multi_author' ) || is_multi_author() ) ) : // If a user has filled out their description and this is a multi-author blog, show a bio on their entries ?>
 		<div id="author-info">
 			<div id="author-avatar">
