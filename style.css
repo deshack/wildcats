@@ -4,7 +4,11 @@ Description:    WordPress theme for Wildcats scooter gang Dueville
 Author:         Mattia Migliorini (deshack)
 Author URI:     http://easywebcom.altervista.org
 Template:       twentyeleven
+<<<<<<< HEAD
 Version:        0.4
+=======
+Version:        0.2
+>>>>>>> 6f561e980b1a0070e241f684b254faf0896d42fe
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -30,6 +34,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 	border-radius:5px 5px 0 0;
 }
 /* Singular */
+<<<<<<< HEAD
 .singular #primary {
 	margin: 0 -26.4% 0 0;
 }
@@ -44,6 +49,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 .singular #comments-title {
 	margin: 0;
 	width: 100%;
+=======
+.singular #content,
+.left-sidebar.singular #content {
+	margin: 0 34% 0 3.6%;
+	width: 59.4%;
+>>>>>>> 6f561e980b1a0070e241f684b254faf0896d42fe
 }
 
 /* =Global
@@ -120,7 +131,10 @@ a:hover{
 }
 #site-title a{
 	font-size:50px;
+<<<<<<< HEAD
 	color: #d00;
+=======
+>>>>>>> 6f561e980b1a0070e241f684b254faf0896d42fe
 }
 #site-description{
 	color: #d00;
@@ -128,6 +142,7 @@ a:hover{
 	font-size:20px;
 }
 
+<<<<<<< HEAD
 /* Comments and "Leave a Reply" colors */
 .comment-content p {
 	color: #373737;
@@ -145,6 +160,8 @@ a:hover{
 #comments-title {
 	color: #989898;
 }
+=======
+>>>>>>> 6f561e980b1a0070e241f684b254faf0896d42fe
 
 /* =Menu
 -------------------------------------------------------------- */
@@ -264,4 +281,8 @@ a:hover{
 }
 #site-generator a:hover{
 	color:#ccc!important;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6f561e980b1a0070e241f684b254faf0896d42fe
