@@ -117,7 +117,7 @@ a:hover{
 }
 #title-group{
 	float:left;
-	padding-left:3%;
+	padding-left:5%;
 }
 #site-title{
 	margin-right:0;
@@ -194,6 +194,10 @@ a:hover{
 ----------------------------------------------- */
 #main{
 	padding:0;
+}
+.hentry,
+.no-results {
+	border-bottom: 1px solid #000;
 }
 .entry-title,
 .entry-title a {
