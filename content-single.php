@@ -19,18 +19,9 @@
 				/* translators: used between list items, there is a space after the comma */
 				$categories_list = get_the_category_list( __( ', ', 'twentyeleven' ) );
 				if ( '' != $categories_list ) {
-					$utility_text = __( ' da <a href="%4$s">%3$s</a> in %1$s', 'twentyeleven' );
-				} else {
-					$utility_text = __( ' da <a href="%4$s">%3$s</a>', 'twentyeleven' );
+					$utility_text = __( ' in '.$categories_list);
 				}
-
-				printf(
-					$utility_text,
-					$categories_list,
-					the_title_attribute( 'echo=0' ),
-					get_the_author(),
-					esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) )
-				);
+				printf( $utility_text );
 			?>
 			<?php
 				$tag_list = get_the_tag_list( '', __( ' - ', 'twentyeleven' ) );
