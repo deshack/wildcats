@@ -248,6 +248,13 @@ a:hover{
 	padding: 0;
 }
 
+/* Singular navigation */
+#nav-single {
+	float: none;
+	text-align: center;
+	margin:2em 0;
+}
+
 /* =Widgets
 ----------------------------------------------- */
 .widget {
