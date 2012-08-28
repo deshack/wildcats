@@ -22,12 +22,6 @@
 			<?php if ( 'post' == get_post_type() ) : ?>
 			<div class="entry-meta">
 				<?php twentyeleven_posted_on(); ?>
-				<?php
-					printf(' da <a href="%2$s">%1$s</a>',
-						get_the_author(),
-						esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) )
-					);
-				?>
 				<?php if ( 'post' == get_post_type() ) : // Hide category and tag text for pages on Search ?>
 					<?php
 						/* translators: used between list items, there is a space after the comma */

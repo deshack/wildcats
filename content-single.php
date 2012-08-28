@@ -19,9 +19,8 @@
 				/* translators: used between list items, there is a space after the comma */
 				$categories_list = get_the_category_list( __( ', ', 'twentyeleven' ) );
 				if ( '' != $categories_list ) {
-					$utility_text = __( ' in '.$categories_list);
+					printf(' in %1$s', $categories_list);
 				}
-				printf( $utility_text );
 			?>
 			<?php
 				$tag_list = get_the_tag_list( '', __( ' - ', 'twentyeleven' ) );
