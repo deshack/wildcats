@@ -30,7 +30,15 @@
 							printf(' in %1$s', $categories_list);
 						}
 					?>
-				<?php endif; // End if categories ?>
+					<?php endif; // End if categories ?>
+					<?php
+						/* translators: used between list items, there is a space after the comma */
+						$tags_list = get_the_tag_list( '', __( ' - ', 'twentyeleven' ) );
+						if ( $tags_list ){
+							printf('<br />'.'Etichette: %1$s', $tags_list);
+						}
+					?>
+				<?php endif; // End if 'post' == get_post_type() ?>
 			</div><!-- .entry-meta -->
 			<?php //endif; ?>
 
@@ -53,21 +61,6 @@
 		<?php endif; ?>
 
 		<footer class="entry-meta">
-			<?php $show_sep = false; ?>
-			<?php
-				/* translators: used between list items, there is a space after the comma */
-				$tags_list = get_the_tag_list( '', __( ', ', 'twentyeleven' ) );
-				if ( $tags_list ):
-				if ( $show_sep ) : ?>
-			<span class="sep"> | </span>
-				<?php endif; // End if $show_sep ?>
-			<span class="tag-links">
-				<?php printf( __( '<span class="%1$s">Tagged</span> %2$s', 'twentyeleven' ), 'entry-utility-prep entry-utility-prep-tag-links', $tags_list );
-				$show_sep = true; ?>
-			</span>
-			<?php endif; // End if $tags_list ?>
-			<?php endif; // End if 'post' == get_post_type() ?>
-
 			<?php if ( comments_open() ) : ?>
 			<?php if ( $show_sep ) : ?>
 			<span class="sep"> | </span>

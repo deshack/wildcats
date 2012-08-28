@@ -25,7 +25,7 @@
 			<?php
 				$tag_list = get_the_tag_list( '', __( ' - ', 'twentyeleven' ) );
 				if ( '' != $tag_list ) {
-					printf(__( '<br />'.'Etichette: '.$tag_list.'.' ) );
+					printf('<br />'.'Etichette: %1$s', $tag_list);
 				}
 			?>
 		</div><!-- .entry-meta -->
