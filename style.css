@@ -134,18 +134,15 @@ a:hover{
 
 /* Comments and "Leave a Reply" colors */
 .comment-content p {
-	color: #373737;
+	color: #bbb;
 }
-
 #respond .comment-notes,
 #respond .logged-in-as {
 	color: #373737;
 }
-
 .entry-meta {
 	color: #989898;
 }
-
 #comments-title {
 	color: #989898;
 }
@@ -261,6 +258,10 @@ a:hover{
 	background:#000;
 	border:2px solid #a00;
 	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	-o-border-radius:8px;
+	-ms-border-radius:8px;
 }
 .widget-title {
 	background:#a00;
@@ -279,6 +280,55 @@ a:hover{
 }
 .widget iframe{
 	margin:15px 20.5px;
+}
+
+/* =Comments
+----------------------------------------------- */
+.commentlist {
+	margin:0 0 0 15.55%;
+	width: 84.45%;
+}
+.commentlist > li.comment {
+	background: #000;
+	border: 2px solid #a00;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	-o-border-radius:8px;
+	-ms-border-radius:8px;
+}
+.commentlist .children li.comment {
+	background: #000;
+	border-left: 2px solid #a00;
+	border-top:2px solid #a00;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	-o-border-radius:8px;
+	-ms-border-radius:8px;
+}
+.commentlist > li:before {
+	content: url(images/comment-arrow.png);
+}
+.commentlist .edit-link a,
+a.comment-reply-link{
+	background: #a00;
+	-webkit-border-radius:3px;
+	-o-border-radius:3px;
+	-ms-border-radius:3px;
+	color: #ccc;
+	transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-webkit-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	-ms-transition:all 0.3s;
+}
+.commentlist .edit-link a:hover,
+a.comment-reply-link:hover,
+a.comment-reply-link:focus,
+a.comment-reply-link:active{
+	background: #700000;
+	color: #bbb;
 }
 
 /* =Footer
