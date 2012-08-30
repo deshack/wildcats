@@ -224,7 +224,8 @@ a:hover{
 	color: rgba(255,255,255,0.8);
 }
 /* Singular content styles for Posts and Pages */
-.singular .hentry{
+.singular .hentry,
+.singular.page .hentry{
 	padding:0;
 }
 .singular .entry-header .entry-meta {
