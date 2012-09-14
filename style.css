@@ -4,7 +4,7 @@ Description:    WordPress theme for Wildcats scooter gang Dueville
 Author:         Mattia Migliorini (deshack)
 Author URI:     http://easywebcom.altervista.org
 Template:       twentyeleven
-Version:        0.4
+Version:        0.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -53,7 +53,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /* =Global
 ----------------------------------------------- */
 body{
-	cursor:url("images/vespa006.cur"),auto;
+	cursor:url("../wildcats/images/vespa006.cur"),auto;
 }
 body, input, textarea{
 	color: #ccc;
