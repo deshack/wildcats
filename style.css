@@ -52,6 +52,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 /* =Global
 ----------------------------------------------- */
+body{
+	cursor:url("images/vespa006.cur"),auto;
+}
 body, input, textarea{
 	color: #ccc;
 	font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
