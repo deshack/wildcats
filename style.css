@@ -281,8 +281,9 @@ a:hover{
 .widget a:active {
 	text-decoration:none;
 }
-.widget iframe{
-	margin:15px 20.5px;
+/* Text Widget */
+.widget_text .textwidget{
+	padding:2%;
 }
 
 /* =Comments
